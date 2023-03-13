@@ -1,3 +1,2 @@
 #!/bin/bash
-find . -empty | cut -d '/' -f 2
-find . -empty -printf "%f\n"
+find . -type f -print |wc -1 |-empty | ls-a|'\
